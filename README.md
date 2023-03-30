@@ -9,19 +9,19 @@ Sihirbazın mutlaka bir sağlık ekipmanı olmalıdır.
 Destekçinin mutlaka bir atak ekipmanı olmalıdır.
 Ekipmanların katkıları aşağıdaki gibidir:
 
-# Savaşçı tipindeki oyunculara;
+## Savaşçı tipindeki oyunculara;
 
 Mavi Büyü +10 HP
 Yeşil Büyü +5 HP
 Kılıç + 20 XP
 Silah + 50 XP
 
-# Sihirbaz tipindeki oyunculara
+## Sihirbaz tipindeki oyunculara
 
 Mavi Büyü +50 HP
 Yeşil Büyü +30 HP
 
-# Destek tipindeki oyunculara;
+## Destek tipindeki oyunculara;
 
 Kılıç +10 XP
 Silah +20 XP
