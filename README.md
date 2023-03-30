@@ -35,7 +35,7 @@ Tip: Savaşçı
 Sağlık Değeri: 105 HP
 
 Atak Gücü: 80 XP
-
+----------------------
 Tip: Sihirbaz
 
 İsim: Annie
@@ -43,7 +43,7 @@ Tip: Sihirbaz
 Sağlık Değeri: 150 HP
 
 Atak Gücü: 20 XP
-
+----------------------
 Tip: Destek
 
 İsim: Alistar
