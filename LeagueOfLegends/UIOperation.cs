@@ -1,25 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading;
 
 namespace LeagueOfLegends
 {
     public class UIOperation
     {
-        public static string CreateMenu(string[] menus)
-        {
-
-            Console.ForegroundColor = ConsoleColor.Yellow;
-
-            string menu = "\t ☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺\n \n";
-
-            for (int i = 0; i < menus.Length; i++)
-            {
-                menu += $"\t {i + 1}-) {menus[i]}  ";
-            }
-            menu += "\n\n \t ☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺";
-
-            return menu;
-        }
         public static string Wait(string text)
         {
             Console.Write("\t");
@@ -28,7 +14,7 @@ namespace LeagueOfLegends
 
             for (int i = 0; i < text.Length; i++)
             {
-                Thread.Sleep(30);
+                Thread.Sleep(50);
 
                 Console.Write(text[i]);
                 if (i % 2 == 0)
@@ -43,6 +29,19 @@ namespace LeagueOfLegends
             }
 
             return typedText;
+        }
+        public static string CharacterList(String[] characterName)
+        {
+            string cizgi = "\n \t╔════════════════════════════════════════════════════════╗\n \n";
+            int caharacterIndex = 0;
+            foreach (var name in characterName)
+            {
+                caharacterIndex++;
+                cizgi += $" \t {caharacterIndex}.KARAKTER \n \t\t \t KARAKTER ADI : {name}\n \t\t \t";
+                cizgi += "\n\n \t╚════════════════════════════════════════════════════════╝\n";
+            }
+
+            return cizgi;
         }
     }
 }
